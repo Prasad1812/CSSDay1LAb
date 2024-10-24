@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Q6.Google Search</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 13px;
+            color: #111;
+        }
+
+        button {
+            background-color: #1a73e8;
+            color: white;
+            margin-left: 20px;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .GoogleName {
+            display: flex;
+            justify-content: center;
+            font-size: 100px;
+            margin-bottom: 40px;
+        }
+
+        .Alp1 {
+            color: blue;
+        }
+
+        .Alp2 {
+            color: yellow;
+        }
+
+        .Alp3 {
+            color: red;
+        }
+
+        .Alp4 {
+            color: blue;
+        }
+
+        .Alp5 {
+            color: greenyellow;
+        }
+
+        .Alp6 {
+            color: red;
+        }
+
+        .SearchTAP {
+            width: 580px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .SearchTAP .SearchBox {
+            width: 100%;
+            padding: 15px;
+            padding-left: 45px;
+            padding-right: 60px;
+            border-radius: 30px;
+            border: 1px solid #dedede;
+            outline: none;
+            font-size: 16px;
+        }
+
+        .Buttons {
+            margin-top: 20px;
+        }
+
+        .Buttons button {
+            margin: 0 5px;
+            padding: 12px 20px;
+            color: #3c4043;
+            background: #f8f9fa;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            border: 1px solid transparent;
+            outline: none;
+        }
+
+        .Buttons button:hover {
+            border: 1px solid #dedede;
+        }
+
+        .languages {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .languages li {
+            margin: 0 10px;
+            font-size: 14px;
+        }
+
+        .languages li a {
+            text-decoration: none;
+            color: #1a73e8;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="https://accounts.google.com/v3/signin/">Gmail</a>
+        <a href="https://www.google.co.in/imghp?hl=en">Images</a>
+        <button>Sign In</button>
+    </nav>
+    <div class="GoogleName">
+        <div class="Alp1">G</div>
+        <div class="Alp2">o</div>
+        <div class="Alp3">o</div>
+        <div class="Alp4">g</div>
+        <div class="Alp5">l</div>
+        <div class="Alp6">e</div>
+    </div>
+    <div class="SearchTAP">
+        <input type="text" class="SearchBox" placeholder="Search">
+    </div>
+    <div class="Buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+    <ul class="languages">
+        <li>Google offered in:</li>
+        <li><a href="">हिन्दी</a></li>
+        <li><a href="">বাংলা</a></li>
+        <li><a href="">తెలుగు</a></li>
+        <li><a href="">मराठी</a></li>
+        <li><a href="">தமிழ்</a></li>
+        <li><a href="">ગુજરાતી</a></li>
+        <li><a href="">ಕನ್ನಡ</a></li>
+        <li><a href="">മലയാളം</a></li>
+        <li><a href="">ਪੰਜਾਬੀ</a></li>
+    </ul>
+</body>
+
+</html>
